@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+
+.header{
+
+    display: flex;
+    justify-content:  space-around;
+    padding:20px  0 ;
+    position: sticky  ;
+     top :0;
+     background-color: white;
+     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.048);
+}
+.header img{
+    width: 250px;
+}
+.header a {
+    color: grey ;
+    text-decoration : none ;
+    padding: 0 5px; 
+}
+
+.header div a:first-child 
+{
+    color: #00b39b;
+}
+
+.header a:hover{
+    color:#00b39b
+}
+.nav-links{
+    display:flex;
+    align-items: center;
+    
+}
+.dropdown button {
+    background-color: transparent;
+    border :0;
+    color : grey;
+
+}
+.dropdown button:hover{
+    background-color: transparent;
+    border :0;
+    color :#00b39b;
+
+}
+
+
+
+.titre {
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+    color: #00b39b;
+    font-family:  Work Sans,Arial,sans-serif !important;
+ 
+}
+.p1 {
+    display:flex;
+    
+    gap: 80px;
+    line-height: 30px;
+    font-family:Arial,sans-serif;
+    color: #747474;
+    padding: 0 11vw;
+    
+
+}
+
+.image {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 40px;
+   
+}
+.image img{
+    width:60px;
+}
+p::selection{
+    background-color:#00b39b;
+}
+.card1 {
+    width: 27%;
+    padding: 5vw 4vw;
+    
+    justify-content: space-around;
+    
+    border-radius: 15px;
+    font-family: Work Sans,Arial,sans-serif;
+    letter-spacing: -.3px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.card1 img{
+    width: 20px;
+    display: flex;
+    
+}
+.card1 select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    outline: none;
+
+}
+.card1 select option {
+    font-family:  Work Sans,Arial,sans-serif;
+    color:black;
+    font-size: 0.5em;
+    font-weight: 100;
+    line-height: 1.0;
+}
+.card-groupe{
+    display: flex;
+    justify-content: center;
+    gap: 1vw ;
+}
+.card-groupe div:nth-child(1){
+    background-color: #00b39b;
+}
+.card-groupe div:nth-child(2){
+    background-color:#3d83df;
+}
+.card-groupe div:nth-child(3){
+    background-color: #1b2734;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 4vw;
+}
+.sponsor div{
+  width: 120%;
+}
+.sponsor svg,img{
+    width: 130px;
+}
+.sponsor svg{
+    fill: #747474;
+}
+svg:hover path{
+    fill: #00b39b;
+}
+.sponsor h1 {
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.section2{ 
+    background-color:#e5faf8;
+    height: 80vh;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position:  100px 250px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.left span {
+    width: 300px;
+    font-size: 2.125rem;
+    color: #00b39b;    
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin: 3vw;
+    
+    
+}
+.left p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    font-family: Arial,sans-serif;
+    color: #747474;
+    margin: 3vw;
+}
+.bottom1{
+
+display: flex;
+flex-direction: column;
+width:50%;
+background-color:white;
+align-items:center;
+gap: 1vw;
+border-radius: 5px;
+
+}
+.bottom1 img {
+    width: 30px;
+}
+.right {
+    display: flex;
+    padding: 2vw 0;
+    gap: 2vw;
+}
+.top1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2vw;
+   
+}
+.top2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+    padding: 2vw 0vw;
+    gap: 2vw;
+
+}
+.bottom1 span {
+    
+    color: #00b39b;    
+    font-family:  Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+   
+    
+   
+    
+
+.bottom1 p {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+}
+.section3 h1
+{
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+   
+    padding: 0px 25vw;
+    color: #00b39b;
+    font-family:  Work Sans,Arial,sans-serif !important;
+   
+ 
+}
+.section3 p {
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+    line-height: 30px;
+    font-family: Arial,sans-serif;
+    color: #747474;
+    padding: 0 25vw;
+}
+.section4  {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    gap: 1vw;
+   
+}
+
+.office img {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
